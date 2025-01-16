@@ -1,0 +1,11 @@
+To improve my code I can use the following techniques:
+
+- Code optimization: In both the dealer_hit() and player_hit() functions, similar logic is repeated for updating card labels. Refactoring this code into a helper function to update the UI with a new card would reduce duplication and improve maintainability.
+Improvement: Create a function update_hand(hand, spot, label_list) to handle both dealer and player card updates in one place.
+
+- Error Handling: The blackjack_shuffle() function does not handle the case where the player or dealer has a Blackjack. Adding logic to check for this condition and update the game status accordingly would improve the game flow.
+Improvement: Add logic to check for Blackjack in blackjack_shuffle() and update game status accordingly.
+
+- Using Classes: The current implementation uses functions to manage game logic. Refactoring the code to use classes for the player, dealer, and game state would provide a more structured approach and improve code organization.
+Improvement: Create classes for Player, Dealer, and Game to encapsulate game logic and state.
+

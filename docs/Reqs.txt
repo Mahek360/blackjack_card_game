@@ -1,0 +1,16 @@
+ID   |  Requirement Description                              |       Input               |  Expected Outcome          | Actual Outcome                |  Pass/Fail
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+R1   |  Deal initial hand to player                          |	Initial deck of cards    |  Player is dealt two cards |  Player is dealt two cards    |  Pass
+R2   |   Player chooses to 'hit'                             |   Player chooses to 'hit' |  Another card is chosen    |  Player is dealt another card |  Pass 
+R3   |   Player chooses to 'stand'                           |  Player chooses to 'stand'|  Player's score is updated |  Player's score is updated    |  Pass
+R4   |   Score is 21 or less                                 |   Score is 21 or less     |  Player wins               |  Player wins                  |  Pass
+R5   |   Score is 22 or over                                 |   Score is 22 or over     |  Player loses              |  Player loses                 |  Pass
+R6   |   Player has a king and an ace                        |Player has a king & an ace |  player score is 21        |  Player has a score of 21     |  Pass
+R7   |   Player has a king, queen and an ace                 |Player has a king,queen,ace|  player score is 21        |  Player has a score of 21     |  Pass
+R8   |   Player has a nine, an ace, and another ace          |  Player has a 9,ace,ace   |  player score is 21        |  Player has a score of 21     |  Pass
+R9   |   There are a total of 52 cards which can be shuffled |  52 cards                 |  Cards can be shuffled     |  Cards are shuffled           |  Pass
+R10  |   After every move, teh score is updated              |  Player chooses to 'hit'  |  Player score is updated   |  Player score is updated      |  Pass
+R11  |   Player can choose to play again/re-shuffle          |  Player chooses to play   |  Game is re-shuffled       |  Game is re-shuffled          |  Pass
+R12  |   Display the scores after the game is over           |  Game is over             |  Scores are displayed      |  Scores are displayed         |  Pass
+R13  |   Handle multiplayers                                 |  Multiple players         |  Multiple players can play |  Multiple players cannot play |  Fail
+R14  |   Dealer's card is hidden                             |  Dealer's card            |  Dealer's card is hidden   |  Dealer's card is displayed   |  Fail

@@ -1,0 +1,44 @@
+Function 1 
+            Name: stand()
+            Description: This function is called when the player chooses to 'stand'. The scores are then updated accordingly.
+            Parameters: None
+            Return: None
+
+Function 2 
+            Name: blackjack_shuffle(player)
+            Description: This fucntion checks if the player or dealer has a Blackjack, updates the game status, and determines the winner or a tie based on the scores.
+            Parameters: player is a str - Specifies which player's score is being checked ("player" or "dealer")
+            Return: None
+
+Function 3
+            Name: resize_cards(card)
+            Description: This function is called when the cards are displayed. The cards are resized to fit the screen.
+            Parameters: card is a str - the file path of the card image to be resized.
+            Return: None
+
+Function 4  
+            Name: shuffle()
+            Description: This function initializes a new deck of cards, shuffles the cards to reset the game state. It also enables the action buttons and clears any cards from the previous game.
+            Parameters: None
+            Return: None
+
+Function 5  
+            Name: dealer_hit()
+            Description: This function is called when the dealer's score is less than 17. The dealer will draw another card.
+            Parameters: None
+            Return: None
+
+Function 6      
+            Name: player_hit()
+            Description: This function is called when the player chooses to 'hit'. The player will draw another card and check if the player has a Blackjack.
+            Parameters: None
+            Return: None
+
+Function 7 
+            Name: deal_cards()
+            Description: deals one card each to the dealer and player, updates the deck and game UI, and displays the number of remaining cards in the title bar.
+            Parameters: None
+            Return: None
+            
+
+
